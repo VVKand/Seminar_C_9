@@ -12,6 +12,6 @@ Console.WriteLine(AllNumber(N));
  
 string AllNumber(int N) 
 { 
-    if (N==1) return ""; 
-    return  AllNumber(N-1) + $"{N-1} "; 
+    if (N==1) return $"{N} "; 
+    return  AllNumber(N-1) + $"{N} "; 
 }

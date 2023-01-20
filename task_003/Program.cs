@@ -11,7 +11,7 @@ int m = Convert.ToInt32(Console.ReadLine());
 
 Akker(m, n);
 
-Console.WriteLine(Akker(m, n));
+Console.WriteLine($"A({m},{n}) = {Akker(m, n)}");
 
 int Akker(int m, int n)
 {
